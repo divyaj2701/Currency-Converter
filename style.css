@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* text-align: center;   */
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    /* padding-bottom: 4px; */
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(107, 105, 105);
+    width: 60vmin;
+    height: auto;
+    align-content: center;
+    border-radius: 1rem;
+    /* justify-content: center; */
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;    
+    border-bottom: 1px solid black;
+}
+form{
+    text-align: center;
+    padding: 1.5rem;
+}
+#amt-title{
+    padding: 2px;
+    margin: 6px;
+}
+.amt_box{
+    margin-top: 4px;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+#amt{
+    padding: 4px;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+    border-radius: .25rem;
+    border: 1px solid grey;
+    width: 80%;
+}
+/* #submit-btn{
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+} */
+.converter-box{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.fromCur{
+    display: flex;
+    flex-direction: column;
+}
+.from-container{
+    display: flex;
+    align-items: center;  
+    gap: 4px;  
+}
+#from-select{
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 0.25rem;
+}
+.toCur{
+    display: flex;
+    flex-direction: column;
+}
+.to-container{
+    display: flex;
+    align-items: center;  
+    gap: 4px; 
+}
+#to-select{
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 0.25rem;
+}
+.unit_amt{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+#get-btn{
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid grey;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.unit-rate{
+    font-size: small;
+    width: max(150px, 50%);
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+    border-radius: .25rem;
+    border: 1px solid gray;
+}
+.total_amt{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.amt-box{
+    width: max(100px, 50%);
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+    border-radius: .25rem;
+    border: 1px solid gray;
+}

@@ -1,0 +1,7 @@
+https://flagsapi.com/:country_code/:style/:size.png -- api for countries flags
+https://free-apis.github.io/#/browse    --- many free apis available
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json   --for currency conversion
+
+https://cdnjs.com/libraries/font-awesome        --to use below icons link from here to be integrated
+https://fontawesome.com/search?m=free&o=r       --free and open source icons
+
